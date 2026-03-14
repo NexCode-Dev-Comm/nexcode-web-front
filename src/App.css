@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#app{
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #41431B;
+}
+
+#headernexcode {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-right: 20px;
+  
+  
+}
+#header{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 20px;
+  height: 10vh;
+  font-size:  2vmin;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#body{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+h1{
+  align-self: center;
+  font-family: 'Odor Mean Chey' cursive;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  font-family: "Monofett", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: #F8F3E1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#projectsWord{
+  font-family: "Monda", sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  padding-left: 15vw;
+  height: 2vw;
 }

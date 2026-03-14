@@ -1,0 +1,39 @@
+#project{
+    display: flex;
+    flex-direction: row;
+    background-color: #F8F3E1;
+    border-radius: 20px;
+    width: 526;
+    height: 15vh;
+    top: 117px;
+    left: 15px;
+    opacity: 1;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+img{
+width: 109;
+height: 62;
+top: 118px;
+left: 15px;
+opacity: 1;
+background-color: #A14646;
+border-radius: 10px;
+}
+#title{
+    font-size: 20px;
+    font-weight: 800;
+    
+}
+#projectInfo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    gap: none;
+    max-height: 100px;
+
+}
+#projectInfo > * {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
